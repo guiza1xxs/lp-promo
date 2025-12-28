@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title id="title">Looking for sex tonight in your area?</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700|Raleway:400,700&display=swap" rel="stylesheet" type="text/css">
+
+    <link href="media/dating/flirtup/css/bootstrap.min.css" rel="stylesheet">
+    <link href="media/dating/flirtup/css/style.css" rel="stylesheet">
+    <link href="media/dating/flirtup/css/animate.css" rel="stylesheet">
+    <link href="media/dating/flirtup/css/vegas.css" rel="stylesheet">
+    <link href="util/flag-icon/css/flag-icon.css" rel="stylesheet" type="text/css"/>
+
+    <script src="media/dating/flirtup/js/jquery.js"></script>
+    <script src="media/dating/flirtup/js/vegas.js"></script>
+    <script type="text/javascript" src="cookie/js.cookie.js"></script>
+    <script type="text/javascript" src="util/utils.js"></script>
+</head>
+
+<body class="vegas-slides-opacity-2 buttons-big buttons-white-hover style_casual">
+    <div class="main-wrapper opacity8">
+        <div class="text-center">
+            <a href="#" class="logo-container logo-2">
+                <span id="userLocation" data-city="0" data-cname="0" data-flag="1"></span>
+                <img class="logo-img" alt="FlirtUp" src="media/dating/flirtup/images/flirt_logo.svg">
+            </a>
+        </div>
+
+        <div class="hero-content text-center">
+            <div class="spacer"></div>
+            <div class="content">
+                <div class="clock">04:59</div>
+                <h1 id="text01">Are you looking for hot dates in your area?</h1>
+            </div>
+
+            <div class="step">
+                <p id="text02">Are you older than 18 years?</p>
+                <a class="learn-btn animated fadeInUp next" href="javascript:void(0)"><span id="text03">No</span></a>
+                <a class="use-btn animated fadeInUp next" href="javascript:void(0)"><span id="text04">Yes</span></a>
+            </div>
+
+            <div class="step" style="display:none;">
+                <p id="text05">Many of these women are desperate single moms and cheating wives looking for some fun. They could be your neighbors or someone you know. Do you agree to keep the identity of these women a secret?</p>
+                <a class="use-btn animated fadeInUp next" href="javascript:void(0)"><span id="text06">Yes</span></a>
+                <a class="learn-btn animated fadeInUp next" href="javascript:void(0)"><span id="text07">No</span></a>
+            </div>
+
+            <div class="step" style="display:none;">
+                <p id="text08">These women have asked us to not allow men that are seeking a "relationship". They only desire quick sex. Not dating. Do you agree to this request?</p>
+                <a class="use-btn animated fadeInUp next" href="javascript:void(0)"><span id="text09">Yes</span></a>
+                <a class="learn-btn animated fadeInUp next" href="javascript:void(0)"><span id="text10">No</span></a>
+            </div>
+
+            <div class="step" style="display:none;">
+                <p id="text11">Do you agree to use a condom when having sex with a partner you meet on our site?</p>
+                <a class="use-btn animated fadeInUp next" href="javascript:void(0)"><span id="text12">Yes</span></a>
+                <a class="learn-btn animated fadeInUp next" href="javascript:void(0)"><span id="text13">No</span></a>
+            </div>
+
+            <div class="step" style="display:none;">
+                <p id="text14">Thank you. You may now see our list and photos of women who are in your area. Again, please keep their identity a secret.</p>
+                <a class="use-btn animated fadeInUp" href="COLOQUE_SEU_LINK_DO_BEMOB_AQUI"><span id="text15">Continue</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="unsubscribe"><a href="unsubscribe.html">Unsubscribe</a></div>
+
+    <script type="text/javascript">
+        $(function () {
+            // Lógica de transição do Quiz
+            $(document).on("click", ".next", function (e) {
+                e.preventDefault();
+                $(this).parent().hide().next().fadeIn();
+            });
+
+            // Configuração do Background Rotativo (Vegas)
+            // Certifique-se de que as imagens abaixo existem na sua pasta media/dating/flirtup/images/
+            $("body").vegas({
+                delay: 5000,
+                shuffle: true,
+                timer: false,
+                transition: 'fade',
+                transitionDuration: 2000,
+                slides: [
+                    {src: 'media/dating/flirtup/images/canada1_casual_dark.jpg'},
+                    {src: 'media/dating/flirtup/images/canada2_casual_dark.jpg'},
+                    {src: 'media/dating/flirtup/images/canada3_casual_dark.jpg'},
+                    {src: 'media/dating/flirtup/images/canada4_casual_dark.jpg'},
+                    {src: 'media/dating/flirtup/images/canada5_casual_dark.jpg'},
+                    {src: 'media/dating/flirtup/images/canada6_casual_dark.jpg'}
+                ]
+            });
+        });
+    </script>
+
+    <script src="media/dating/flirtup/js/timer.js"></script>
+    <script type="text/javascript" src="media/dating/flirtup/js/trls_loveme_casual.js"></script>
+    <script src="media/bb.js"></script>
+    <script src="media/exit-new/exit1.js"></script>
+
+</body>
+</html>
